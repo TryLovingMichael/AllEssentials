@@ -1,0 +1,106 @@
+name: AllEssential
+version: '${version}'
+main: dev.michaelh.allessential.AllEssential
+authors: [ MichaelH, TryLovingMichael, Mezn ]
+description: Everything you need for a server and more!
+website: https://michael-h.dev
+
+
+commands:
+  gamemode:
+    description: Change your gamemode.
+    usage: /<command> <gamemode> [player]
+    aliases: [ gm ]
+    permission: ae.gamemode
+    permission-message: You do not have permission.
+  kick:
+    description: Kick a player from the server.
+    usage: /<command> <player> [reason]
+    permission: ae.mod.kick
+    permission-message: You do not have permission.
+  ban:
+    description: Ban a player from the server.
+    usage: /<command> <player> [reason]
+    permission: ae.mod.ban
+    permission-message: You do not have permission.
+  tempban:
+    description: Temporarily ban a player from the server.
+    usage: /<command> <player> <time> [reason]
+    permission: ae.mod.tempban
+    permission-message: You do not have permission.
+  fly:
+    description: Toggle fly mode.
+    usage: /<command>
+    aliases: [ flymode ]
+    permission: ae.qol.fly
+    permission-message: You do not have permission.
+  feed:
+    description: Feed yourself or another player.
+    usage: /<command>
+    permission: ae.qol.feed
+    permission-message: You do not have permission.
+  report:
+    description: Report a player.
+    usage: /<command> <player> <reason>
+  reports:
+    description: Check all reports.
+    usage: /<command>
+    permission: ae.mod.reports
+    permission-message: You do not have permission.
+  balance:
+    description: Check your balance.
+    usage: /<command>
+    aliases: [ bal ]
+  pay:
+    description: Pay another player.
+    usage: /<command> <player> <amount>
+  setbalance:
+    description: Set a player's balance.
+    usage: /<command> <player> <amount>
+    permission: ae.mod.setbalance
+    permission-message: You do not have permission.
+  takebalance:
+    description: Take balance from someone.
+    usage: /<command> <player> <amount>
+    permission: ae.mod.takebalance
+    permission-message: You do not have permission.
+  day:
+    description: Set the time to day
+    usage: /<command>
+    permission: ae.qol.day
+    permission-message: You do not have permission.
+  sun:
+    description: Make it sunny!
+    usage: /<command>
+    permission: ae.qol.sun
+    permission-message: You do not have permission.
+  setspawn:
+    description: Set the spawnpoint
+    usage: /<command>
+    permission: ae.mod.setspawn
+    permission-message: You do not have permission.
+  reloadconfig:
+    description: Reload the config
+    usage: /<command>
+    permission: ae.admin.reloadconfig
+    permission-message: You do not have permission.
+  gmc:
+    description: Switch gamemode
+    usage: /<command>
+    permission: ae.mod.gamemode
+    permission-message: You do not have permission.
+  gms:
+    description: Switch gamemode
+    usage: /<command>
+    permission: ae.mod.gamemode
+    permission-message: You do not have permission.
+  nuke:
+    description: Nuke a big area... very dangerous.
+    usage: /<command>
+    permission: ae.fun.nuke
+    permission-message: You do not have permission.
+  worldtp:
+    description: Teleport to any world.
+    usage: /<command>
+    permission: ae.admin.worldtp
+    permission-message: You do not have permission.
